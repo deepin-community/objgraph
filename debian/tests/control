@@ -1,0 +1,2 @@
+Tests: unittests3
+Depends: graphviz, python3-all, python3-objgraph, python3-setuptools
