@@ -1,3 +1,13 @@
+objgraph (3.6.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh patches.
+  * Bump copyright years.
+  * Run tests using upstream's test.py, not pytest. (Closes: #1064689)
+  * Patch: Skip the setup.py test.
+
+ -- Stefano Rivera <stefanor@debian.org>  Wed, 28 Feb 2024 10:56:59 -0400
+
 objgraph (3.6.0-1) unstable; urgency=medium
 
   * New upstream release.

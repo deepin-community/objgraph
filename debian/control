@@ -11,7 +11,6 @@ Build-Depends:
  python3-graphviz,
  python3-setuptools,
  python3-sphinx,
- python3-pytest <!nocheck>
 Standards-Version: 4.6.2
 Homepage: https://mg.pov.lt/objgraph/
 Vcs-Git: https://salsa.debian.org/python-team/packages/objgraph.git

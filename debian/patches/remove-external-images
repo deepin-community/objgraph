@@ -12,7 +12,7 @@ Forwarded: not-needed
  1 file changed, 17 deletions(-)
 
 diff --git a/README.rst b/README.rst
-index d85253b..ea92544 100644
+index 9a34de1..ea92544 100644
 --- a/README.rst
 +++ b/README.rst
 @@ -1,23 +1,6 @@
@@ -20,7 +20,7 @@ index d85253b..ea92544 100644
  ====================
  
 -.. image:: https://github.com/mgedmin/objgraph/workflows/build/badge.svg?branch=master
--    :target: https://github.com/mgedmin/objgraph/actions
+-   :target: https://github.com/mgedmin/objgraph/actions
 -   :alt: Build Status
 -
 -.. image:: https://ci.appveyor.com/api/projects/status/github/mgedmin/objgraph?branch=master&svg=true
