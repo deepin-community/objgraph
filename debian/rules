@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
 export PYBUILD_NAME=objgraph
-export PYBUILD_TEST_ARGS=-v tests.py
+export PYBUILD_TEST_CUSTOM=1
+export PYBUILD_TEST_ARGS={interpreter} tests.py
 
 %:
 	dh $@ --with python3,sphinxdoc --buildsystem=pybuild

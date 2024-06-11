@@ -1,0 +1,23 @@
+From: Stefano Rivera <stefanor@debian.org>
+Date: Wed, 28 Feb 2024 10:44:26 -0400
+Subject: Skip the setup.py test
+
+We run the test suite in situations where setup.py isn't present.
+---
+ tests.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/tests.py b/tests.py
+index a1d7fb9..26678c3 100755
+--- a/tests.py
++++ b/tests.py
+@@ -681,7 +681,8 @@ def test_suite():
+                              optionflags=doctest.ELLIPSIS,
+                              checker=IgnoreNodeCountChecker(),
+                              *doctests),
+-        doctest.DocTestSuite(),
++        # Debian: Skipped
++        # doctest.DocTestSuite(),
+     ])
+ 
+ 

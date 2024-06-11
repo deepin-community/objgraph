@@ -3,6 +3,12 @@ Changes
 
 .. currentmodule:: objgraph
 
+3.6.1 (2024-02-26)
+------------------
+
+- Add support for Python 3.12.
+
+
 3.6.0 (2023-06-16)
 ------------------
 
